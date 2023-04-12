@@ -4,7 +4,11 @@
 <title>Form</title>
 </head>
 <body>
-<form action="form.php" method="post">
+<!--JS-->
+<script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-firestore.js"></script>
+<form id = "matrix">
 <!--NAME-->
 <label for="name">NAME: -  </label>
 <input type="text" name="name" id="name" /><br><br>
@@ -291,7 +295,7 @@
         <label for="not_have_memebership">NOT HAVE MEMBERSHHIP: - </label>
         <input type="checkbox"><br><br><br>
 <!--SUBMIT-->
-<input type="submit" value="Submit" />
+<button type="submit" value="Submit"></button>
 </form>
 </body>
 </html>
