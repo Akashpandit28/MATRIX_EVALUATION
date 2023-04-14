@@ -4,11 +4,7 @@
 <title>Form</title>
 </head>
 <body>
-<!--JS-->
-<script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-auth.js"></script>
-<script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-firestore.js"></script>
-<form id = "matrix">
+<form id = "matrix" action = "https://script.google.com/a/macros/srmist.edu.in/s/AKfycbymthtBzUybssVj0rjr2tY53aVDtAjNqmd9BzIePQUZPFXQw694H9EFBjuFiCQyfohh/exec">
 <!--NAME-->
 <label for="name">NAME: -  </label>
 <input type="text" name="name" id="name" /><br><br>
@@ -24,7 +20,7 @@
 <!--ACADMICS-->
 <h4>ACADMICS</h4>
 <!--10TH PERCENTAGE-->
-<label for="10th_percentage">10TH PERCENTAGE: - </label>
+<label for="10th_percentage" name ="10th_percentage">10TH PERCENTAGE: - </label>
 <select>
         <option value="96 to 100">96% - 100%</option>
         <option value="91 to 95">91% - 95%</option>
@@ -33,7 +29,7 @@
         <option value=">75">Below 75%</option>
       </select><br><br>
 <!--12TH PERCENTAGE-->
-<label for="10th_percentage">12TH PERCENTAGE: - </label>
+<label for="12th_percentage" name = "12th_percentage">12TH PERCENTAGE: - </label>
 <select>
         <option value="96 to 100">96% - 100%</option>
         <option value="91 to 95">91% - 95%</option>
@@ -42,7 +38,7 @@
         <option value=">75">Below 75%</option>
       </select><br><br>
 <!--CURRENT CGPA-->
-<label for="current_cgpa">CURRENT CGPA: - </label>
+<label for="current_cgpa" name = "current_cgpa">CURRENT CGPA: - </label>
 <select>
         <option value="<9.5">ABOVE 9.5</option>
         <option value="91 to 95">9.1 - 9.5</option>
@@ -53,7 +49,7 @@
 <!--GITHUB-->
 <h4>GITHUB</h4>
 <!--NUMBER OF REPOSITORIES-->
-<label for="repo">NUMBER OF REPOSITORIES: - </label>
+<label for="repo" name = "repo">NUMBER OF REPOSITORIES: - </label>
 <select>
         <option value="<20">MORE THAN 20</option>
         <option value="16 to 20">16 - 20</option>
@@ -63,14 +59,14 @@
         <option value="0">NO REPOSITORIES</option>
       </select><br><br>
 <!--FREQUENCY OF CONTRIBUTION-->
-<label for="freq">FREQUENCY OF CONTRIBUTION PER MONTH: - </label>
+<label for="freq" name = "freq">FREQUENCY OF CONTRIBUTION PER MONTH: - </label>
 <select>
         <option value="2">2 PER MONTH</option>
         <option value="1">1 PER MONTH</option>
         <option value="0">0 CONTRIBUTION PER MONTH</option>
 </select><br><br>
 <!--PROJECTS DONE FOR COMMUNITY-->
-<label for="comm">PROJECTS DONE FOR COMMUNITY: - </label>
+<label for="comm" name = "comm">PROJECTS DONE FOR COMMUNITY: - </label>
 <lable><b>*MAXIMUM 2*</b></lable>
 <select>
         <option value="2">2 </option>
@@ -78,7 +74,7 @@
         <option value="0">0</option>
 </select><br><br>
 <!--NUMBER OF COLLABORATIONS-->
-<label for="comm">NUMBER OF COLLABORATIONS: - </label>
+<label for="colab" name = "collab">NUMBER OF COLLABORATIONS: - </label>
 <label><b>*MAXIMUM 3*</b></label>
 <select>
         <option value="3">3 </option>
@@ -89,7 +85,7 @@
 <!--CODING-->
 <h4>CODING PLATFORMS</h4>
 <!--NUMBER OF BADGES EARNED-->
-<label for="badges">NUMBER OF BADGES EARNED: - </label>
+<label for="badges" name = "badges">NUMBER OF BADGES EARNED: - </label>
 <select>
         <option value="=<5">5 AND GREATER THAN 5</option>
         <option value="4">4</option>
@@ -99,7 +95,7 @@
         <option value="0">0</option>        
 </select><br><br>
 <!--NUMBER OF QUESTIONS DONE-->
-<label for="badges">NUMBER OF QUESTIONS (HARD LEVEL/MEDIUM LEVEL) DONE: - </label>
+<label for="no_of_questions" name = "no_of_questions">NUMBER OF QUESTIONS (HARD LEVEL/MEDIUM LEVEL) DONE: - </label>
 <select>
         <option value="<20">GREATER THAN 20</option>
         <option value="16 to 20">16 - 20</option>
@@ -112,7 +108,7 @@
 <h4>INTERNSHIPS</h4>
 <label><br><b>*MINIMUM 3 AND GREATER MONTHS*</b></label><br><br>
 <!--IIT/NIT/GOVERNMENT INTERNSHIP-->
-<label for="iit/nit/government_internship">NUMBER OF IIT/NIT/GOVERNMENT INTERNSHIPS DONE: - </label>
+<label for="iit/nit/government_internship" name = "iit/nit/government_internship">NUMBER OF IIT/NIT/GOVERNMENT INTERNSHIPS DONE: - </label>
 <select>
         <option value="3">3</option>
         <option value="2">2</option>
@@ -120,7 +116,7 @@
         <option value="0">0</option> 
 </select><br><br>
 <!--SRM PLACEMENT PROCESS INTERNSHIP-->
-<label for="srm_pp_internship">NUMBER OF SRM PLACEMENT PROCESS INTERNSHIPS DONE: - </label>
+<label for="srm_pp_internship" name = "srm_pp_internship">NUMBER OF SRM PLACEMENT PROCESS INTERNSHIPS DONE: - </label>
 <select>
         <option value="3">3</option>
         <option value="2">2</option>
@@ -128,7 +124,7 @@
         <option value="0">0</option> 
 </select><br><br>
 <!--FORTUNE 500 COMPAINES INTERNSHIP-->
-<label for="fortune_internship">NUMBER OF SRM PLACEMENT PROCESS INTERNSHIPS DONE: - </label>
+<label for="fortune_internship" name = "fortune_internship">NUMBER OF SRM PLACEMENT PROCESS INTERNSHIPS DONE: - </label>
 <select>
         <option value="3">3</option>
         <option value="2">2</option>
@@ -136,7 +132,7 @@
         <option value="0">0</option> 
 </select><br><br>
 <!--SMALL COMPAINES INTERNSHIP-->
-<label for="small_internship">NUMBER OF SMALL COMPANIES INTERNSHIPS DONE: - </label>
+<label for="small_internship" name = "small_internship">NUMBER OF SMALL COMPANIES INTERNSHIPS DONE: - </label>
 <select>
         <option value="3">3</option>
         <option value="2">2</option>
@@ -144,7 +140,7 @@
         <option value="0">0</option> 
 </select><br><br>
 <!--LESS THAN 3 MONTHS INTERNSHIP-->
-<label for="less_than_3_month_internship">LESS THAN 3 MONTHS INTERNSHIP: - </label>
+<label for="less_than_3_month_internship" name = "less_than_3_month_internship">LESS THAN 3 MONTHS INTERNSHIP: - </label>
 <select>
         <option value="3">3</option>
         <option value="2">2</option>
@@ -152,7 +148,7 @@
         <option value="0">0</option> 
 </select><br><br>
 <!--PAID INTERNSHIP-->
-<label for="paid_internship">PAID INTERNSHIP: - </label>
+<label for="paid_internship" name = "paid_internship">PAID INTERNSHIP: - </label>
 <select>
         <option value="3">3</option>
         <option value="2">2</option>
@@ -160,13 +156,13 @@
         <option value="0">0</option> 
 </select><br><br>
 <!--NO INTERNSHIP-->
-<label for="no_internship">NO INTERNSHIP: - </label>
+<label for="no_internship" name = "no_internship">NO INTERNSHIP: - </label>
 <input type="checkbox"><br><br><br>
 <!--SKILL SETS & STANDARD CERTIFICATIONS COMPLETED-->
 <label><b>CERTIFICATIONS</b></label><br><br>
 <label><b>*MAXIMUM 5*</b></label><br><br>
 <!--GOVERNMENT CERTIFICATES-->
-<label for ="government_certificates">GOVERNEMNT CERTIFICATES: - </label>
+<label for ="government_certificates" name = "government_certificates">GOVERNEMNT CERTIFICATES: - </label>
 <select>
         <option value="5">5</option>
         <option value="4">4</option>
@@ -176,7 +172,7 @@
         <option value="0">0</option> 
 </select><br><br>
 <!--RICH CERTIFICATES-->
-<label for ="rich_cartificates">RICH CERTIFICATES (CISCO, CCNA, CCNP, MCNA,MCNP, Matlab, Redhat, IBM, NTPEL): - </label>
+<label for ="rich_certificates" name = "rich_certificates">RICH CERTIFICATES (CISCO, CCNA, CCNP, MCNA,MCNP, Matlab, Redhat, IBM, NTPEL): - </label>
 <select>
         <option value="5">5</option>
         <option value="4">4</option>
@@ -186,7 +182,7 @@
         <option value="0">0</option> 
 </select><br><br>
 <!--COURSERA/ AWS ACADEMY CERTIFICATES-->
-<label for ="coursera/aws_certificates">CORSERA/AWS ACADMEY CERTIFICATES: - </label>
+<label for ="coursera/aws_certificates" name = "coursera/aws_certificates">CORSERA/AWS ACADMEY CERTIFICATES: - </label>
 <select>
         <option value="5">5</option>
         <option value="4">4</option>
@@ -196,7 +192,7 @@
         <option value="0">0</option> 
 </select><br><br>
 <!--PROGRAMMING CERTIFICATES-->
-<label for ="programming_certificates">ANY CODING PLATFORM CERTIFICATES(LEET CODE, HACKKERRANK, HACKEREARTH ETC): - </label>
+<label for ="programming_certificates" name = "programming_certificates">ANY CODING PLATFORM CERTIFICATES(LEET CODE, HACKKERRANK, HACKEREARTH ETC): - </label>
 <select>
         <option value="5">5</option>
         <option value="4">4</option>
@@ -206,7 +202,7 @@
         <option value="0">0</option> 
 </select><br><br>
 <!--UDEMY CERTIFICATES-->
-<label for ="udemy_certificates">UDEMY CERTIFICATES: - </label>
+<label for ="udemy_certificates" name = "udemy_certificates">UDEMY CERTIFICATES: - </label>
 <select>
         <option value="5">5</option>
         <option value="4">4</option>
@@ -219,7 +215,7 @@
 <h4>PROJECTS DONE</h4>
 <label><br><b>*MAXIMUM 3*</b></label><br><br>
 <!--IIT/ NIT/ ISRO/ DRDO PROJECTS-->
-<label for ="iit/nit/isro/drdo_projects">IIT, NIT, DRDO, ISRO: - </label>
+<label for ="iit/nit/isro/drdo_projects" name = "iit/nit/isro/drdo_projects">IIT, NIT, DRDO, ISRO: - </label>
 <select>
         <option value="3">3</option>
         <option value="2">2</option>
@@ -227,7 +223,7 @@
         <option value="0">0</option> 
 </select><br><br>
 <!--GOVERNMENT PROJECTS-->
-<label for ="government_projects">GOVERNMENT PROJECTS: - </label>
+<label for ="government_projects" name = "government_projects">GOVERNMENT PROJECTS: - </label>
 <select>
         <option value="3">3</option>
         <option value="2">2</option>
@@ -235,7 +231,7 @@
         <option value="0">0</option> 
 </select><br><br>
 <!--MOBILE APPLICATION/ WEBSITE APPLICATION-->
-<label for ="mob/web_projects">MOBILE APPLICATION/ WEB APPLICATION: - </label>
+<label for ="mob/web_projects" name = "mob/web_projects">MOBILE APPLICATION/ WEB APPLICATION: - </label>
 <select>
         <option value="3">3</option>
         <option value="2">2</option>
@@ -243,7 +239,7 @@
         <option value="0">0</option> 
 </select><br><br>
 <!--MINI PROJECTS-->
-<label for ="mini_projects">MINI PROJECTS: - </label>
+<label for ="mini_projects" name = "mini_projects">MINI PROJECTS: - </label>
 <select>
         <option value="3">3</option>
         <option value="2">2</option>
@@ -252,47 +248,47 @@
 </select><br><br>
 <label><br><b>*MARKS BASED ON PROJECT QUALITY*</b></label><br><br>
 <!--NO PROJECTS DONE-->
-<label for="no_projetcs_done">NO PROJECTS DONE: - </label>
+<label for="no_projetcs_done" name = "no_projetcs_done">NO PROJECTS DONE: - </label>
 <input type="checkbox"><br><br><br>
 <!--FULL STACK PROJECTS-->
 <h4>FULL STACK PROJECTS</h4>
 <label><br><b>*MAXIMUM 1*</b></label><br><br>
 <!--DONE 1 FSD-->
-<label for="done_one_fsd">DONE 1 FULL STACK DEVELOPMENT PROJECT: - </label>
+<label for="done_one_fsd" name = "done_one_fsd">DONE 1 FULL STACK DEVELOPMENT PROJECT: - </label>
 <input type="checkbox"><br><br>
 <!-- NOT DONE 1 FSD-->
-<label for="not_done_one_fsd">NOT DONE 1 FULL STACK DEVELOPMENT PROJECT: - </label>
+<label for="not_done_one_fsd" name = "not_done_one_fsd">NOT DONE 1 FULL STACK DEVELOPMENT PROJECT: - </label>
 <input type="checkbox"><br><br><br>
 <!--CODING COMPETITIONS-->
 <h4>FULL STACK PROJECTS</h4>
 <label><br><b>*MAXIMUM 4 HACKATHONS OR COMPETITIONS*</b></label><br><br>
 <!--RANKING-->
-<label for ="comp1">1ST HACKATHON/ COMPETITION: - </label>
+<label for ="comp1" name = "comp1">1ST HACKATHON/ COMPETITION: - </label>
 <select>
         <option value="1">1ST PRICE</option>
         <option value="2">2ND PRICE</option>
         <option value="3">3RD PRICE</option>
         <option value="1">PARTICIPATED</option>
 </select><br><br>
-        <label for="not_won">NOT WON ANY HACKATHON/ COMPETITION: - </label>
+        <label for="not_won" name = "not_won">NOT WON ANY HACKATHON/ COMPETITION: - </label>
         <input type="checkbox"><br><br><br>
 <!--IN HOUSE PROJECTS DONE-->
 <h4>IN HOUSE PROJECT</h4>
 <label><br><b>*MAXIMUM 2*</b></label><br><br>
-<label for ="inhouse_project">NUMBER OF INHOUSE PROJECTS DONE: - </label>
+<label for ="inhouse_project" name = "inhouse_project">NUMBER OF INHOUSE PROJECTS DONE: - </label>
 <select>
         <option value="1">1</option>
         <option value="2">2</option>
 </select><br><br>
-        <label for="not_done_inhouse_project">NOT DONE ANY INHOUSE PROJECT: - </label>
+        <label for="not_done_inhouse_project" name = "not_done_inhouse_project">NOT DONE ANY INHOUSE PROJECT: - </label>
         <input type="checkbox"><br><br><br>
 </select><br><br>
 <!--MEMBERSHIP OF PROFESSIONAL BODIES-->
 <h4>IN MEMBERSHIP OF PROFESSIONAL BODIES</h4>
 <label><br><b>*MAXIMUM 1*</b></label><br><br>
-<label for="have_memebership">HAVE MEMBERSHHIP: - </label>
+<label for="have_memebership" name = "have_memebership">HAVE MEMBERSHHIP: - </label>
         <input type="checkbox"><br><br>
-        <label for="not_have_memebership">NOT HAVE MEMBERSHHIP: - </label>
+        <label for="not_have_memebership" name = "not_have_memebership">NOT HAVE MEMBERSHHIP: - </label>
         <input type="checkbox"><br><br><br>
 <!--SUBMIT-->
 <button type="submit" value="Submit"></button>
