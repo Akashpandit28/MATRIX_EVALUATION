@@ -4,7 +4,7 @@
 <title>Form</title>
 </head>
 <body>
-<form id = "matrix" action = "https://script.google.com/a/macros/srmist.edu.in/s/AKfycbymthtBzUybssVj0rjr2tY53aVDtAjNqmd9BzIePQUZPFXQw694H9EFBjuFiCQyfohh/exec">
+<form id = "matrix">
 <!--NAME-->
 <label for="name">NAME: -  </label>
 <input type="text" name="name" id="name" /><br><br>
@@ -296,8 +296,8 @@
 
 <!--JS-->
 <script>
-        const scriptURL = ''
-        const form = document.forms['formName']
+        const scriptURL = 'https://script.google.com/a/macros/srmist.edu.in/s/AKfycbymthtBzUybssVj0rjr2tY53aVDtAjNqmd9BzIePQUZPFXQw694H9EFBjuFiCQyfohh/exec'
+        const form = document.forms['matrix']
   
         form.addEventListener('submit', e => {
           e.preventDefault()
