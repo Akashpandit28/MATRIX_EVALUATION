@@ -4,7 +4,7 @@
 <title>Form</title>
 </head>
 <body>
-<form id = "matrix" action = "https://script.google.com/a/macros/srmist.edu.in/s/AKfycbymthtBzUybssVj0rjr2tY53aVDtAjNqmd9BzIePQUZPFXQw694H9EFBjuFiCQyfohh/exec">
+<form id = "matrix" action = "https://script.google.com/a/macros/srmist.edu.in/s/AKfycbwxpQ5OvDXqVt-Lq1i0D4EkIFaZoI00MbxQSHfr-BC46taNsdQ_MAWbWA8x7uv0T0fF/exec">
 <!--NAME-->
 <label for="name">NAME: -  </label>
 <input type="text" name="name" id="name" /><br><br>
@@ -20,8 +20,8 @@
 <!--ACADMICS-->
 <h4>ACADMICS</h4>
 <!--10TH PERCENTAGE-->
-<label for="10th_percentage" name ="10th_percentage">10TH PERCENTAGE: - </label>
-<select>
+<label for="10th_percentage">10TH PERCENTAGE: - </label>
+<select name ="10th_percentage" id ="10th_percentage">
         <option value="96 to 100">96% - 100%</option>
         <option value="91 to 95">91% - 95%</option>
         <option value="86 to 90">86% - 90%</option>
@@ -29,8 +29,8 @@
         <option value=">75">Below 75%</option>
       </select><br><br>
 <!--12TH PERCENTAGE-->
-<label for="12th_percentage" name = "12th_percentage">12TH PERCENTAGE: - </label>
-<select>
+<label for="12th_percentage">12TH PERCENTAGE: - </label>
+<select name = "12th_percentage" id = "12th_percentage">
         <option value="96 to 100">96% - 100%</option>
         <option value="91 to 95">91% - 95%</option>
         <option value="86 to 90">86% - 90%</option>
@@ -38,8 +38,8 @@
         <option value=">75">Below 75%</option>
       </select><br><br>
 <!--CURRENT CGPA-->
-<label for="current_cgpa" name = "current_cgpa">CURRENT CGPA: - </label>
-<select>
+<label for="current_cgpa">CURRENT CGPA: - </label>
+<select name = "current_cgpa" id = "current_cgpa">
         <option value="<9.5">ABOVE 9.5</option>
         <option value="91 to 95">9.1 - 9.5</option>
         <option value="86 to 90">8.6 - 9.0</option>
@@ -49,8 +49,8 @@
 <!--GITHUB-->
 <h4>GITHUB</h4>
 <!--NUMBER OF REPOSITORIES-->
-<label for="repo" name = "repo">NUMBER OF REPOSITORIES: - </label>
-<select>
+<label for="repo">NUMBER OF REPOSITORIES: - </label>
+<select name = "repo" id = "repo">
         <option value="<20">MORE THAN 20</option>
         <option value="16 to 20">16 - 20</option>
         <option value="11 to 15">11 - 15</option>
@@ -59,24 +59,24 @@
         <option value="0">NO REPOSITORIES</option>
       </select><br><br>
 <!--FREQUENCY OF CONTRIBUTION-->
-<label for="freq" name = "freq">FREQUENCY OF CONTRIBUTION PER MONTH: - </label>
-<select>
+<label for="freq">FREQUENCY OF CONTRIBUTION PER MONTH: - </label>
+<select name = "freq" id = "ferq">
         <option value="2">2 PER MONTH</option>
         <option value="1">1 PER MONTH</option>
         <option value="0">0 CONTRIBUTION PER MONTH</option>
 </select><br><br>
 <!--PROJECTS DONE FOR COMMUNITY-->
-<label for="comm" name = "comm">PROJECTS DONE FOR COMMUNITY: - </label>
-<lable><b>*MAXIMUM 2*</b></lable>
-<select>
+<label for="comm">PROJECTS DONE FOR COMMUNITY: - </label>
+<label><b>*MAXIMIM 2*</b></label>
+<select name = "comm" id = "comm">
         <option value="2">2 </option>
         <option value="1">1 </option>
         <option value="0">0</option>
 </select><br><br>
 <!--NUMBER OF COLLABORATIONS-->
-<label for="colab" name = "collab">NUMBER OF COLLABORATIONS: - </label>
+<label for="colab">NUMBER OF COLLABORATIONS: - </label>
 <label><b>*MAXIMUM 3*</b></label>
-<select>
+<select name = "collab" ID = "collab">
         <option value="3">3 </option>
         <option value="2">2 </option>
         <option value="1">1 </option>
@@ -85,8 +85,8 @@
 <!--CODING-->
 <h4>CODING PLATFORMS</h4>
 <!--NUMBER OF BADGES EARNED-->
-<label for="badges" name = "badges">NUMBER OF BADGES EARNED: - </label>
-<select>
+<label for="badges">NUMBER OF BADGES EARNED: - </label>
+<select name = "badges" id = "badges">
         <option value="=<5">5 AND GREATER THAN 5</option>
         <option value="4">4</option>
         <option value="3">3</option>
@@ -95,8 +95,8 @@
         <option value="0">0</option>        
 </select><br><br>
 <!--NUMBER OF QUESTIONS DONE-->
-<label for="no_of_questions" name = "no_of_questions">NUMBER OF QUESTIONS (HARD LEVEL/MEDIUM LEVEL) DONE: - </label>
-<select>
+<label for="no_of_questions">NUMBER OF QUESTIONS (HARD LEVEL/MEDIUM LEVEL) DONE: - </label>
+<select name = "no_of_questions" id = "no_of_questions">
         <option value="<20">GREATER THAN 20</option>
         <option value="16 to 20">16 - 20</option>
         <option value="11 to 15">11 - 15</option>
@@ -108,62 +108,62 @@
 <h4>INTERNSHIPS</h4>
 <label><br><b>*MINIMUM 3 AND GREATER MONTHS*</b></label><br><br>
 <!--IIT/NIT/GOVERNMENT INTERNSHIP-->
-<label for="iit/nit/government_internship" name = "iit/nit/government_internship">NUMBER OF IIT/NIT/GOVERNMENT INTERNSHIPS DONE: - </label>
-<select>
+<label for="iit/nit/government_internship">NUMBER OF IIT/NIT/GOVERNMENT INTERNSHIPS DONE: - </label>
+<select name = "iit/nit/government_internship" id = "iit/nit/government_internship">
         <option value="3">3</option>
         <option value="2">2</option>
         <option value="1">1</option>
         <option value="0">0</option> 
 </select><br><br>
 <!--SRM PLACEMENT PROCESS INTERNSHIP-->
-<label for="srm_pp_internship" name = "srm_pp_internship">NUMBER OF SRM PLACEMENT PROCESS INTERNSHIPS DONE: - </label>
-<select>
+<label for="srm_pp_internship">NUMBER OF SRM PLACEMENT PROCESS INTERNSHIPS DONE: - </label>
+<select name = "srm_pp_internship" id = "srm_pp_internship">
         <option value="3">3</option>
         <option value="2">2</option>
         <option value="1">1</option>
         <option value="0">0</option> 
 </select><br><br>
 <!--FORTUNE 500 COMPAINES INTERNSHIP-->
-<label for="fortune_internship" name = "fortune_internship">NUMBER OF SRM PLACEMENT PROCESS INTERNSHIPS DONE: - </label>
-<select>
+<label for="fortune_internship">NUMBER OF FORTUNE COMPANIES INTERNSHIPS DONE: - </label>
+<select name = "fortune_internship" id = "fortune_internship">
         <option value="3">3</option>
         <option value="2">2</option>
         <option value="1">1</option>
         <option value="0">0</option> 
 </select><br><br>
 <!--SMALL COMPAINES INTERNSHIP-->
-<label for="small_internship" name = "small_internship">NUMBER OF SMALL COMPANIES INTERNSHIPS DONE: - </label>
-<select>
+<label for="small_internship" >NUMBER OF SMALL COMPANIES INTERNSHIPS DONE: - </label>
+<select name = "small_internship" id = "small_internship">
         <option value="3">3</option>
         <option value="2">2</option>
         <option value="1">1</option>
         <option value="0">0</option> 
 </select><br><br>
 <!--LESS THAN 3 MONTHS INTERNSHIP-->
-<label for="less_than_3_month_internship" name = "less_than_3_month_internship">LESS THAN 3 MONTHS INTERNSHIP: - </label>
-<select>
+<label for="less_than_3_month_internship">LESS THAN 3 MONTHS INTERNSHIP: - </label>
+<select name = "less_than_3_month_internship" id = "less_than_3_month_internship">
         <option value="3">3</option>
         <option value="2">2</option>
         <option value="1">1</option>
         <option value="0">0</option> 
 </select><br><br>
 <!--PAID INTERNSHIP-->
-<label for="paid_internship" name = "paid_internship">PAID INTERNSHIP: - </label>
-<select>
+<label for="paid_internship">PAID INTERNSHIP: - </label>
+<select name = "paid_internship" id = "paid_internship">
         <option value="3">3</option>
         <option value="2">2</option>
         <option value="1">1</option>
         <option value="0">0</option> 
 </select><br><br>
 <!--NO INTERNSHIP-->
-<label for="no_internship" name = "no_internship">NO INTERNSHIP: - </label>
+<label for="no_internship" name = "no_internship" id = "no_internship">NO INTERNSHIP: - </label>
 <input type="checkbox"><br><br><br>
 <!--SKILL SETS & STANDARD CERTIFICATIONS COMPLETED-->
 <label><b>CERTIFICATIONS</b></label><br><br>
 <label><b>*MAXIMUM 5*</b></label><br><br>
 <!--GOVERNMENT CERTIFICATES-->
-<label for ="government_certificates" name = "government_certificates">GOVERNEMNT CERTIFICATES: - </label>
-<select>
+<label for ="government_certificates">GOVERNEMNT CERTIFICATES: - </label>
+<select name = "government_certificates" id = "government_certificates">
         <option value="5">5</option>
         <option value="4">4</option>
         <option value="3">3</option>
@@ -172,8 +172,8 @@
         <option value="0">0</option> 
 </select><br><br>
 <!--RICH CERTIFICATES-->
-<label for ="rich_certificates" name = "rich_certificates">RICH CERTIFICATES (CISCO, CCNA, CCNP, MCNA,MCNP, Matlab, Redhat, IBM, NTPEL): - </label>
-<select>
+<label for ="rich_certificates">RICH CERTIFICATES (CISCO, CCNA, CCNP, MCNA,MCNP, Matlab, Redhat, IBM, NTPEL): - </label>
+<select name = "rich_certificates" id = "rich_certificates">
         <option value="5">5</option>
         <option value="4">4</option>
         <option value="3">3</option>
@@ -182,8 +182,8 @@
         <option value="0">0</option> 
 </select><br><br>
 <!--COURSERA/ AWS ACADEMY CERTIFICATES-->
-<label for ="coursera/aws_certificates" name = "coursera/aws_certificates">CORSERA/AWS ACADMEY CERTIFICATES: - </label>
-<select>
+<label for ="coursera/aws_certificates">CORSERA/AWS ACADMEY CERTIFICATES: - </label>
+<select name = "coursera/aws_certificates" id = "coursera/aws_certificates">
         <option value="5">5</option>
         <option value="4">4</option>
         <option value="3">3</option>
@@ -192,8 +192,8 @@
         <option value="0">0</option> 
 </select><br><br>
 <!--PROGRAMMING CERTIFICATES-->
-<label for ="programming_certificates" name = "programming_certificates">ANY CODING PLATFORM CERTIFICATES(LEET CODE, HACKKERRANK, HACKEREARTH ETC): - </label>
-<select>
+<label for ="programming_certificates">ANY CODING PLATFORM CERTIFICATES(LEET CODE, HACKKERRANK, HACKEREARTH ETC): - </label>
+<select name = "programming_certificates" id = "programming_certificates">
         <option value="5">5</option>
         <option value="4">4</option>
         <option value="3">3</option>
@@ -202,8 +202,8 @@
         <option value="0">0</option> 
 </select><br><br>
 <!--UDEMY CERTIFICATES-->
-<label for ="udemy_certificates" name = "udemy_certificates">UDEMY CERTIFICATES: - </label>
-<select>
+<label for ="udemy_certificates">UDEMY CERTIFICATES: - </label>
+<select name = "udemy_certificates" id = "udemy_certificates">
         <option value="5">5</option>
         <option value="4">4</option>
         <option value="3">3</option>
@@ -215,32 +215,32 @@
 <h4>PROJECTS DONE</h4>
 <label><br><b>*MAXIMUM 3*</b></label><br><br>
 <!--IIT/ NIT/ ISRO/ DRDO PROJECTS-->
-<label for ="iit/nit/isro/drdo_projects" name = "iit/nit/isro/drdo_projects">IIT, NIT, DRDO, ISRO: - </label>
-<select>
+<label for ="iit/nit/isro/drdo_projects">IIT, NIT, DRDO, ISRO: - </label>
+<select name = "iit/nit/isro/drdo_projects" id = "iit/nit/isro/drdo_projects">
         <option value="3">3</option>
         <option value="2">2</option>
         <option value="1">1</option>
         <option value="0">0</option> 
 </select><br><br>
 <!--GOVERNMENT PROJECTS-->
-<label for ="government_projects" name = "government_projects">GOVERNMENT PROJECTS: - </label>
-<select>
+<label for ="government_projects">GOVERNMENT PROJECTS: - </label>
+<select name = "government_projects" id = "government_projects">
         <option value="3">3</option>
         <option value="2">2</option>
         <option value="1">1</option>
         <option value="0">0</option> 
 </select><br><br>
 <!--MOBILE APPLICATION/ WEBSITE APPLICATION-->
-<label for ="mob/web_projects" name = "mob/web_projects">MOBILE APPLICATION/ WEB APPLICATION: - </label>
-<select>
+<label for ="mob/web_projects">MOBILE APPLICATION/ WEB APPLICATION: - </label>
+<select name = "mob/web_projects" id = "mob/web_projects">
         <option value="3">3</option>
         <option value="2">2</option>
         <option value="1">1</option>
         <option value="0">0</option> 
 </select><br><br>
 <!--MINI PROJECTS-->
-<label for ="mini_projects" name = "mini_projects">MINI PROJECTS: - </label>
-<select>
+<label for ="mini_projects">MINI PROJECTS: - </label>
+<select name = "mini_projects" id = "mini_projects">
         <option value="3">3</option>
         <option value="2">2</option>
         <option value="1">1</option>
@@ -260,35 +260,56 @@
 <label for="not_done_one_fsd" name = "not_done_one_fsd">NOT DONE 1 FULL STACK DEVELOPMENT PROJECT: - </label>
 <input type="checkbox"><br><br><br>
 <!--CODING COMPETITIONS-->
-<h4>FULL STACK PROJECTS</h4>
+<h4>HACKATHONS AND COMPETITIONS</h4>
 <label><br><b>*MAXIMUM 4 HACKATHONS OR COMPETITIONS*</b></label><br><br>
 <!--RANKING-->
-<label for ="comp1" name = "comp1">1ST HACKATHON/ COMPETITION: - </label>
-<select>
+<label for ="comp1">1ST HACKATHON/ COMPETITION: - </label>
+<select name = "comp1" id = "comp1">
         <option value="1">1ST PRICE</option>
         <option value="2">2ND PRICE</option>
         <option value="3">3RD PRICE</option>
         <option value="1">PARTICIPATED</option>
 </select><br><br>
-        <label for="not_won" name = "not_won">NOT WON ANY HACKATHON/ COMPETITION: - </label>
+<label for ="comp2">2ND HACKATHON/ COMPETITION: - </label>
+<select name = "comp2" id = "comp2">
+        <option value="1">1ST PRICE</option>
+        <option value="2">2ND PRICE</option>
+        <option value="3">3RD PRICE</option>
+        <option value="1">PARTICIPATED</option>
+</select><br><br>
+<label for ="comp3">3RD HACKATHON/ COMPETITION: - </label>
+<select name = "comp3" id = "comp3">
+        <option value="1">1ST PRICE</option>
+        <option value="2">2ND PRICE</option>
+        <option value="3">3RD PRICE</option>
+        <option value="1">PARTICIPATED</option>
+</select><br><br>
+<label for ="comp4">4TH HACKATHON/ COMPETITION: - </label>
+<select name = "comp4" id = "comp4">
+        <option value="1">1ST PRICE</option>
+        <option value="2">2ND PRICE</option>
+        <option value="3">3RD PRICE</option>
+        <option value="1">PARTICIPATED</option>
+</select><br><br>
+        <label for="not_won" name = "not_won" id = "not_won">NOT WON ANY HACKATHON/ COMPETITION: - </label>
         <input type="checkbox"><br><br><br>
 <!--IN HOUSE PROJECTS DONE-->
 <h4>IN HOUSE PROJECT</h4>
 <label><br><b>*MAXIMUM 2*</b></label><br><br>
-<label for ="inhouse_project" name = "inhouse_project">NUMBER OF INHOUSE PROJECTS DONE: - </label>
-<select>
+<label for ="inhouse_project">NUMBER OF INHOUSE PROJECTS DONE: - </label>
+<select name = "inhouse_project" id = "inhouse_project">
         <option value="1">1</option>
         <option value="2">2</option>
 </select><br><br>
-        <label for="not_done_inhouse_project" name = "not_done_inhouse_project">NOT DONE ANY INHOUSE PROJECT: - </label>
+        <label for="not_done_inhouse_project" name = "not_done_inhouse_project" id = "not_done_inhouse_project">NOT DONE ANY INHOUSE PROJECT: - </label>
         <input type="checkbox"><br><br><br>
 </select><br><br>
 <!--MEMBERSHIP OF PROFESSIONAL BODIES-->
 <h4>IN MEMBERSHIP OF PROFESSIONAL BODIES</h4>
 <label><br><b>*MAXIMUM 1*</b></label><br><br>
-<label for="have_memebership" name = "have_memebership">HAVE MEMBERSHHIP: - </label>
+<label for="have_memebership" name = "have_memebership" id = "have_memebership">HAVE MEMBERSHHIP: - </label>
         <input type="checkbox"><br><br>
-        <label for="not_have_memebership" name = "not_have_memebership">NOT HAVE MEMBERSHHIP: - </label>
+        <label for="not_have_memebership" name = "not_have_memebership" id = "not_have_memebership">NOT HAVE MEMBERSHHIP: - </label>
         <input type="checkbox"><br><br><br>
 <!--SUBMIT-->
 <button type="submit" value="Submit"></button>
@@ -296,7 +317,7 @@
 
 <!--JS-->
 <script>
-        const scriptURL = 'https://script.google.com/a/macros/srmist.edu.in/s/AKfycbymthtBzUybssVj0rjr2tY53aVDtAjNqmd9BzIePQUZPFXQw694H9EFBjuFiCQyfohh/exec'
+        const scriptURL = 'https://script.google.com/a/macros/srmist.edu.in/s/AKfycbwxpQ5OvDXqVt-Lq1i0D4EkIFaZoI00MbxQSHfr-BC46taNsdQ_MAWbWA8x7uv0T0fF/exec'
         const form = document.forms['matrix']
   
         form.addEventListener('submit', e => {
