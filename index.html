@@ -4,7 +4,7 @@
 <title>Form</title>
 </head>
 <body>
-<form id = "matrix" action = "https://script.google.com/a/macros/srmist.edu.in/s/AKfycbwxpQ5OvDXqVt-Lq1i0D4EkIFaZoI00MbxQSHfr-BC46taNsdQ_MAWbWA8x7uv0T0fF/exec">
+<form id = "form" action = "https://script.google.com/macros/s/AKfycbyIFpNliVETHJsApDT4RoXne4p4EfCZAyC4qAj61MTNAXBaVXEt4uAtk6Wsi8BAyegW/exec">
 <!--NAME-->
 <label for="name">NAME: -  </label>
 <input type="text" name="name" id="name" /><br><br>
@@ -74,7 +74,7 @@
         <option value="0">0</option>
 </select><br><br>
 <!--NUMBER OF COLLABORATIONS-->
-<label for="colab">NUMBER OF COLLABORATIONS: - </label>
+<label for="collab">NUMBER OF COLLABORATIONS: - </label>
 <label><b>*MAXIMUM 3*</b></label>
 <select name = "collab" ID = "collab">
         <option value="3">3 </option>
@@ -87,7 +87,7 @@
 <!--NUMBER OF BADGES EARNED-->
 <label for="badges">NUMBER OF BADGES EARNED: - </label>
 <select name = "badges" id = "badges">
-        <option value="=<5">5 AND GREATER THAN 5</option>
+        <option value="5">5 AND GREATER THAN 5</option>
         <option value="4">4</option>
         <option value="3">3</option>
         <option value="2">2</option>
@@ -317,16 +317,15 @@
 
 <!--JS-->
 <script>
-        const scriptURL = 'https://script.google.com/a/macros/srmist.edu.in/s/AKfycbwxpQ5OvDXqVt-Lq1i0D4EkIFaZoI00MbxQSHfr-BC46taNsdQ_MAWbWA8x7uv0T0fF/exec'
-        const form = document.forms['matrix']
-  
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyIFpNliVETHJsApDT4RoXne4p4EfCZAyC4qAj61MTNAXBaVXEt4uAtk6Wsi8BAyegW/exec'
+        const form = document.forms['form']
         form.addEventListener('submit', e => {
-          e.preventDefault()
-          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-                .then(response => alert("Thank you! your form is submitted successfully." ))
-                .then(() => {  window.location.reload(); })
-                .catch(error => console.error('Error!', error.message))
-        })
-  </script>
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                      .then(response => alert("Thank you! your form is submitted successfully." ))
+                      .then(() => {  window.location.reload(); })
+                      .catch(error => console.error('Error!', error.message))
+              })
+        </script>
 </body>
 </html>
